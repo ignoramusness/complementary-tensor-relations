@@ -4,7 +4,7 @@ Author: Ignoramus
 
 Email: ignoramus110926@gmail.com
 
-Version 3.2 - November 10, 2026
+Version 3.3 - November 10, 2026
 
 ## Abstract
 
@@ -745,11 +745,11 @@ Here a generic polynomial syzygy has coefficients in the polynomial ring $F[t_{a
 
 Theorem 2.1 concerns complementary tensors of arbitrary order. For nonzero complementary tensors, Theorem 1.1 collects the complete classification of maximal three-leaf matching kernels in terms of their original blocks. Under the same complementary-nonvanishing hypothesis, Theorem 7.1 gives the corresponding block criterion for determinant tensors of every order, and for unsigned matching tensors in characteristic two. A block-level classification for unsigned $K_{n,n}$ in other characteristics and $n>3$ is not asserted. The determinant-family proof uses the vanishing of an alternating sum with two identical rows. This mechanism fails for unsigned sums outside characteristic two: the permanent of two identical rows $(x,y)$ is $2xy$, which is not the zero polynomial. The three-leaf proof instead uses its specific two-term complementary tensors and the exhaustive root-pair cases in Section 5. The general cofactor criterion of Theorem 2.1 remains valid for every $n$, but these arguments do not translate it into a classification of arbitrary higher-order unsigned edge blocks.
 
-## AI generation, contributions and verification
+## AI use, contributions and verification
 
-This manuscript and its mathematical arguments were generated and revised through an AI-led workflow using OpenAI Codex and Anthropic Claude. The systems proposed results, generated proofs and prose, searched the literature, reviewed the arguments and produced verification code. Their role was substantive mathematical generation, not solely language editing. Claude's review rounds supplied a characteristic-free three-tensor bound and a two-unknown-block criterion; Codex developed the arbitrary-order extensions, assembled the block classifications and the cut-rank application, and prepared the manuscript. Claude's review of version 3 also supplied the modified sharp family used in Theorem 10.1, the subset-sharpness formula of Section 11 and several of the references. The project records also contain earlier AI-generated matching and signed-minor arguments.
+The author, who publishes under the pseudonym Ignoramus, directed this project and takes responsibility for the paper. The author used OpenAI Codex and Anthropic Claude to produce the results, proofs, verification code and prose, to search the literature and to review the arguments, and has not verified the mathematics. No independent human mathematical verification is claimed. Claude's review rounds supplied a characteristic-free three-tensor bound and a two-unknown-block criterion; Codex developed the arbitrary-order extensions, assembled the block classifications and the cut-rank application, and prepared the manuscript. Claude's review of version 3 also supplied the modified sharp family used in Theorem 10.1, the subset-sharpness formula of Section 11 and several of the references. The project records also contain earlier AI-generated matching and signed-minor arguments.
 
-The human user directed the project and selected the author name Ignoramus. No independent human mathematical verification is claimed. Checks performed by the generating systems and their agents are AI checks, not external peer review. The proofs are included in full and do not depend on the finite computations. A complete model-version history for all generation and review steps has not been verified. No AI system is listed as an author.
+Checks performed by the two systems and their agents are AI checks, not external peer review. The proofs are included in full and do not depend on the finite computations. A complete model-version history for all generation and review steps has not been verified. No AI system is listed as an author.
 
 ## References
 
